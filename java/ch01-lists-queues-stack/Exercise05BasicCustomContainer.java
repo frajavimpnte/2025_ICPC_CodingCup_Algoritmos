@@ -22,6 +22,7 @@ public class Exercise05BasicCustomContainer {
             this.pushFront(datos[i]);
         }
     }
+
     public void pushFront(int val) {
         SinglyLinkedListNode newNode = new SinglyLinkedListNode(val, null);
         if ( head != null)
@@ -46,6 +47,7 @@ public class Exercise05BasicCustomContainer {
         System.out.println("sll.popFront(): " + sll.popFront());
         System.out.println("sll.popFront(): " + sll.popFront());
         System.out.println("sll.popFront(): " + sll.popFront());
-        System.out.println("sll.popFront(): " + sll.popFront());
+        // System.out.println("sll.popFront(): " + sll.popFront()); // Exception
+        
     }
 }
